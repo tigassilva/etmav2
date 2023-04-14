@@ -101,6 +101,16 @@ background: black;
   
 }
 
+.titulo{
+ position: relative;
+ padding: 5vw;
+ margin-top: 5vw;
+ margin-bottom: 5vw;
+ text-align: center;
+ font-size: 18px;
+ background-color: black;
+}
+
 .swiper {
  
   display: flex;
@@ -109,7 +119,7 @@ background: black;
   box-sizing: border-box;
   width: 80vw;
   height: 75vw;
-  margin-top: 0.5em;
+  
 }
 
 
@@ -136,7 +146,7 @@ background: black;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
